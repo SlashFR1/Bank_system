@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(BankSystemGUI)
+
+# Find the Qt6 (or Qt5) libraries
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
+
+# Enable automatic invocation of the Meta-Object Compiler (MOC)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
+
+# Define the source files
+set(SOURCES
+    main.cpp
+    MainWindow.cpp
+    Bank.cpp
+    # Add any other .cpp files here
+)
+
+# Create the executable
+add_executable(BankSystemGUI ${SOURCES})
+
+# Link the Qt libraries to your project
+target_link_libraries(BankSystemGUI Qt6::Widgets)

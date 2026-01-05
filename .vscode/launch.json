@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/baffourlouis/Desktop/Projet/Bank_system",
+      "program": "/Users/baffourlouis/Desktop/Projet/Bank_system/build/Debug/outDebug"
+    }
+  ]
+}
