@@ -2,7 +2,6 @@ To complete your project at a high engineering standard, here is the updated **R
 
 ***
 
-```markdown
 # Advanced Bank Management System (C++ OOP & Qt GUI)
 
 ## 📌 Project Overview
